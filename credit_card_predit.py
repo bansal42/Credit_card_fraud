@@ -19,5 +19,3 @@ out6=rf.predict(x_test)
 
 print("Random Forest training score:", rf.score(x_train,y_train))
 print("Random Forest testing score:", accuracy_score(y_test,out6))
-
-pickle.dump(rf, open("model.pkl", "wb"))
